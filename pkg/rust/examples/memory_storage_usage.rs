@@ -26,7 +26,7 @@ mod api_usage {
                 nullable,
                 is
             ) VALUES
-                (1, 'test1', 'not null', TRUE),
+                (1, 'test1', NULL, TRUE),
                 (2, 'test2', NULL, FALSE)",
         )
         .await
